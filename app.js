@@ -16,6 +16,9 @@ But the old owl had become ${userInputs[10]} each and every day.`;
 
 let userInputs = [];
 
+//Total questions
+let numberOfQuestions = 11;
+
 console.log(originalStory);
 
 
