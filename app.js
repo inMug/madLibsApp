@@ -4,6 +4,10 @@
 let userInput = ["owl", "oak", "boy", "basket", "girl", "less", "more", "elephant", "mistake", "better", "wiser",
 ];
 
+//calculating userInput quantity
+//console.log(userInput.length);
+let numberOfQuestions = 11;
+
 //original story with user inputs
 let originalStory = `A Wise Old ${userInput[0]}
 There was an ${userInput[0]} that lived in an ${userInput[1]}.
