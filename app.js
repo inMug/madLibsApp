@@ -46,9 +46,13 @@ for (let i = numberOfQuestions; i > 0; i--) {
    //Check of each question showing up
    //console.log(questionCounter);
    //console.log(questionArray);
-   console.log(questionArray[questionCounter]);
+   //console.log(questionArray[questionCounter]);
+   numberOfQuestions--; //put this above console.log, in order to show that after 1st question will left 11-1
+   console.log(questionArray[questionCounter] + ` ${numberOfQuestions} questions left.`);
    questionCounter++; //put this console.log below, in other case the counter starts from index 1
-}
+   
+
+  }
 
 
 //original story with user inputs
