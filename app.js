@@ -33,12 +33,21 @@ let questionArray = [
 `Enter an adverb.`,
 `Enter an adjective.`,
 ];
-//Checking do questions are equal to number of questions
+
+//Checking do questions are equal to number of user inputs
 //console.log(userInput.length === questionArray.length);
 
+//Variable for questions counter
+let questionCounter = 0;
+
 //Loop for calculating questions
-for (let i = numberOfQuestions; i >= 0; i--) {
-    console.log(i);
+for (let i = numberOfQuestions; i > 0; i--) {
+   // console.log(i);
+   //Check of each question showing up
+   //console.log(questionCounter);
+   //console.log(questionArray);
+   console.log(questionArray[questionCounter]);
+   questionCounter++; //put this console.log below, in other case the counter starts from index 1
 }
 
 
@@ -59,7 +68,7 @@ Moral of the story:
 You should be observant, talk less but listen more.
 This will make you a wise person.`;
 
-console.log(originalStory);
+//console.log(originalStory);
 
 
 
