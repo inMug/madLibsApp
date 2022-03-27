@@ -1,12 +1,46 @@
 "use strict";
 
 //user inputs (should go first and then story)
-let userInput = ["owl", "oak", "boy", "basket", "girl", "less", "more", "elephant", "mistake", "better", "wiser",
+let userInput = [
+"owl",
+"oak",
+"boy",
+"basket",
+"girl",
+"less",
+"more",
+"elephant",
+"mistake",
+"better",
+"wiser",
 ];
 
 //calculating userInput quantity
 //console.log(userInput.length);
 let numberOfQuestions = 11;
+
+//User promts for each replacement
+let questionArray = [
+`Enter a bird.`,
+`Enter a tree.`,
+`Enter a person.`,
+`Enter a place to store things.`,
+`Enter a person.`,
+`Enter an adverb.`,
+`Enter an adverb.`,
+`Enter an animal.`,
+`Enter an act or judgment that is misguided or wrong.`,
+`Enter an adverb.`,
+`Enter an adjective.`,
+];
+//Checking do questions are equal to number of questions
+//console.log(userInput.length === questionArray.length);
+
+//Loop for calculating questions
+for (let i = numberOfQuestions; i >= 0; i--) {
+    console.log(i);
+}
+
 
 //original story with user inputs
 let originalStory = `A Wise Old ${userInput[0]}
