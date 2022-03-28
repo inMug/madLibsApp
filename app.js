@@ -46,8 +46,9 @@ for (let i = numberOfQuestions; i > 0; i--) {
 
    questionCounter++; //put this console.log below, in other case the counter starts from index 1
    console.log(userInput);
+}
 
-  }
+alert('All done! Are you ready for new story?');
 
 
 //original story with user inputs
