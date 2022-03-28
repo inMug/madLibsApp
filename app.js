@@ -48,27 +48,28 @@ for (let i = numberOfQuestions; i > 0; i--) {
    console.log(userInput);
 }
 
+//original story with user inputs
+let originalStory = `<h2>A Wise Old ${userInput[0]}</h2>
+<h2>There was an ${userInput[0]} that lived in an ${userInput[1]}.</h2>
+<h2>Everyday he saw incidents happening around him.</h2>
+<h2>Yesterday he saw a ${userInput[2]} helping an old man to carry a heavy ${userInput[3]}.</h2>
+<h2>Today he saw ${userInput[4]} shouting at her mother. The more he saw the ${userInput[5]} he spoke.</h2>
+<h2>As he spoke less, he heard ${userInput[6]}.</h2>
+<h2>He heard people talking and telling stories.</h2>
+<h2>He heard a woman saying that an ${userInput[7]} jumped over a fence.</h2>
+<h2>He also heard a man saying that he had never made a ${userInput[8]}.</h2>
+<h2>The old ${userInput[0]} had seen and heard about what happened to people.</h2>
+<h2>Some became ${userInput[9]} and some became worse.</h2>
+<h2>But the old ${userInput[0]} had become ${userInput[10]} each and every day.</h2>
+<h2>Moral of the story:</h2>
+<h2>You should be observant, talk less but listen more.</h2>
+<h2>This will make you a wise person.</h2>`;
+
 alert('All done! Are you ready for new story?');
 
+console.log(originalStory);
+document.write(originalStory);
 
-//original story with user inputs
-let originalStory = `A Wise Old ${userInput[0]}
-There was an ${userInput[0]} that lived in an ${userInput[1]}.
-Everyday he saw incidents happening around him.
-Yesterday he saw a ${userInput[2]} helping an old man to carry a heavy ${userInput[3]}.
-Today he saw ${userInput[4]} shouting at her mother. The more he saw the ${userInput[5]} he spoke.
-As he spoke less, he heard ${userInput[6]}. 
-He heard people talking and telling stories.
-He heard a woman saying that an ${userInput[7]} jumped over a fence.
-He also heard a man saying that he had never made a ${userInput[8]}.
-The old ${userInput[0]} had seen and heard about what happened to people.
-Some became ${userInput[9]} and some became worse.
-But the old ${userInput[0]} had become ${userInput[10]} each and every day.
-Moral of the story:
-You should be observant, talk less but listen more.
-This will make you a wise person.`;
-
-//console.log(originalStory);
 
 
 
