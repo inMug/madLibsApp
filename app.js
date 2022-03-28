@@ -1,19 +1,7 @@
 "use strict";
 
 //user inputs (should go first and then story)
-let userInput = [
-"owl",
-"oak",
-"boy",
-"basket",
-"girl",
-"less",
-"more",
-"elephant",
-"mistake",
-"better",
-"wiser",
-];
+let userInput = [];
 
 //calculating userInput quantity
 //console.log(userInput.length);
@@ -49,8 +37,15 @@ for (let i = numberOfQuestions; i > 0; i--) {
    //console.log(questionArray[questionCounter]);
    numberOfQuestions--; //put this above console.log, in order to show that after 1st question will left 11-1
    console.log(questionArray[questionCounter] + ` ${numberOfQuestions} questions left.`);
+
+   userInput.push(
+     prompt(
+      questionArray[questionCounter] + `    (${numberOfQuestions} questions left.)`
+     )
+   );   
+
    questionCounter++; //put this console.log below, in other case the counter starts from index 1
-   
+   console.log(userInput);
 
   }
 
@@ -80,7 +75,17 @@ This will make you a wise person.`;
 
 
 
-
+/*"owl",
+"oak",
+"boy",
+"basket",
+"girl",
+"less",
+"more",
+"elephant",
+"mistake",
+"better",
+"wiser",*/
 
 
 
